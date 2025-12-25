@@ -5,7 +5,7 @@ function App() {
     <div 
       style={{
         minHeight: '100vh',
-        background: 'linear-gradient(to bottom right, #4f46e5, #a855f7, #ec4899)', // indigo-600 → purple-600 → pink-500
+        background: 'linear-gradient(to bottom right, #4f46e5, #a855f7, #ec4899)', // Strong indigo-purple-pink
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
@@ -18,10 +18,7 @@ function App() {
         Global Tax Calculator
       </h1>
       <p className="text-xl md:text-3xl text-white font-semibold drop-shadow">
-        MVP Live & Gradient Fixed! 🚀
-      </p>
-      <p className="text-lg text-white mt-12 opacity-90">
-        React + Vite + Netlify working
+        Live Gradient Fixed & Ready! 🚀
       </p>
     </div>
   )
