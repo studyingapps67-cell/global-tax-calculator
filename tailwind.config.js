@@ -5,9 +5,10 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   safelist: [
-    {
-      pattern: /bg-(gradient|indigo|purple|pink|blue)-(.*)/, // Keeps all gradients
-    },
+    'bg-gradient-to-br',
+    'from-indigo-600',
+    'via-purple-600',
+    'to-pink-500',
   ],
   theme: {
     extend: {},
